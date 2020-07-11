@@ -1,218 +1,91 @@
-:root{
-  --backNav :  #262424  ;
-  --hover   : #fff;  
+.grid-container {
+  display: grid;
+  grid-template-columns: 245px 1fr;
+  grid-template-rows: 50px 1fr 50px;
+  grid-template-areas:
+    "sidenav header"
+    "sidenav main"
+    "sidenav footer";
+  height: 100vh;
 }
 
-body {
-margin: 0;
-padding: 0 ;
-background-color: #000 ;
- 
- 
+/* Give every child element its grid name */
+.header {
+  grid-area: header;
+  background-color: #000000;
 }
 
-*{box-sizing: border-box;}
-
-body, h1, h2, h3, h4, h5, h6 {
-  font-family: "Montserrat", sans-serif;
-  font-size: 15px;
-  line-height: 1.5;
-  
-  
+.sidenav {
+  grid-area: sidenav;
+  background-color: #000000;
 }
 
-
-
-.center{
-margin: 0;
-background-color: black;
-color: white ;
-height:1000px;
-  
-
-
-}
-                                              /*nav*/
-
-
-
-ul{
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  width: 10%;
-  background-color: var(--backNav);
-  position: fixed; /* Make it stick, even on scroll */
-  overflow: auto; /* Enable scrolling if the sidenav has too much content */
-  height: 100%;
- 
+.main {
+  grid-area: main;
+  background-color: #000000;
 }
 
-li a {
-  display: block;
-  color: #000;
-  padding: 8px 16px;
-  color: #fff; 
-  text-align: center;
+.footer {
+  grid-area: footer;
+  background-color:#000000;
 }
 
-/* Change the link color on hover home */
-li a:hover.hover_home {
-  background-color: #555;
-  color: var(--hover);
-  text-decoration: none;
-}
+    /*nav*/
 
-/* Change the link color on hover others icons */
 
-li a:hover.icons{
-  background-color: #131313;
-  color: var( --hover ) ;
-  text-decoration: none;
-}
 
-/* Photo nav*/
-
-.photo_nav{
-border-style: none;
-cursor: auto;
-vertical-align: middle;
-background-color: #fff ;
- 
-}
-
-.header_main{
-  background-color: #000 ;
-}
-
-.header_main1{
-  display: flex;
-  justify-content:center ;
-  align-items:center ;
-  flex-direction:column;
-}
-
-.main_title{
-  font-size: 64px ;
-  line-height: 1.5
-  
-}
-
-.para_title{
-  font-size: 15px;
-  line-height: 1.5;
-}
-
-                        /* About */
-
-.section_1{
-  background-color: #000 ;
-  font-size: 15px;
-  line-height: 1.5;
-
- 
-  height:1000px;
-  
-}
-
-.title_2{
-  margin-left:20%; 
-  
-}
-
-.para_1{
-   margin-left:20%;
-  display: block;
-  color: #757575 ;
-  text-align: justify ;  
-
-  
-}
-
-.separator_1{
-width: 170px;
-height:2px ;
-display: block;
-background: #999999;
-margin: 15px ;
-color : #fff ;
-margin-left:20%; 
-}
-
-.title_3{
-  color:white ;
-  padding-top: 40px ;
-}
-
-  /* progresbar */
-.progress_bar{
-  background-color: white ;
-}
-
-.title_progress_bar{
-   font-family: "Montserrat", sans-serif;
-  font-size: 15px;
-  line-height: 1.5;
-  padding: 12px  ;
-
-}
-          /* tableau */
-.section_2{
-  background-color: #000 ;
-  padding:1px 16px;
-  height:1000px;
-  display: flex;
-  justify-content:center;
-  flex-direction: row;
- 
-  padding-right: 25%;
-  
-  
-  }
-
-td ,th{border:2px black solid; padding: 5px; text-align:center;  }
-
-th{ font-weight: bolder;font-size: 25px; }
-
-table{border-collapse:collapse ;
-  margin-top: 30px; 
-  background-color: #000;
-  margin-left:35%;
-  background-color:#fff ;
-  color: #000;
-  font-size: 15px;
-  line-height: 1.5;
-  font-family: "Montserrat", sans-serif;
-  opacity: 0.70;
-  width: 100%;
- 
+    ul{
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      width: 10%;
+      background-color: var(--backNav);
+      position: fixed; /* Make it stick, even on scroll */
+      overflow: auto; /* Enable scrolling if the sidenav has too much content */
+      height: 100%;
+     
+    }
     
-}
-
-table:hover{
-  cursor: pointer;
-  opacity :1;
-  
-}
-
-
-
-thead,tfoot{
-  background-color: #757575;
-}
-
-.button_tableau{
-  background-color: #fff;
-}
-
-.button_tableau:hover{
-  background-color: #000;
-  color: #fff;
-}
- 
-
-
-
-  
-
-
+    li a {
+      display: block;
+      color: #000;
+      padding: 8px 16px;
+      color: #fff; 
+      text-align: center;
+    }
+    
+    /* Change the link color on hover home */
+    li a:hover.hover_home {
+      background-color: #555;
+      color: var(--hover);
+      text-decoration: none;
+    }
+    
+    /* Change the link color on hover others icons */
+    
+    li a:hover.icons{
+      background-color: #131313;
+      color: var( --hover ) ;
+      text-decoration: none;
+    }
+    
+    /* Photo nav*/
+    
+    .photo_nav{
+    border-style: none;
+    cursor: auto;
+    vertical-align: middle;
+    background-color: #fff ;
+     
+    }
+    
+    .header_main{
+      background-color: #000 ;
+    }
+    
+    .header_main1{
+      display: flex;
+      justify-content:center ;
+      align-items:center ;
+      flex-direction:column;
+    }
