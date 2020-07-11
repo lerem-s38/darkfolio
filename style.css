@@ -12,17 +12,26 @@
 /* Give every child element its grid name */
 .header {
   grid-area: header;
-  background-color: #000000;
+  background-color:#000000;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
 }
 
 .sidenav {
   grid-area: sidenav;
   background-color: #000000;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
 }
 
 .main {
   grid-area: main;
   background-color: #000000;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
 }
 
 .footer {
@@ -81,6 +90,8 @@
     cursor: auto;
     vertical-align: middle;
     background-color: #fff ;
+    width: 100%;
+    height: auto;
      
     }
     
@@ -94,3 +105,41 @@
       align-items:center ;
       flex-direction:column;
     }
+
+    /* Photo nav*/
+
+.photo_nav{
+  border-style: none;
+  cursor: auto;
+  vertical-align: middle;
+  background-color: #fff ;
+   
+  }
+  
+  .header_main{
+    background-color: #000 ;
+  }
+  
+  .header_main1{
+    display: flex;
+    justify-content:center ;
+    align-items:center ;
+    flex-direction:column;
+  }
+  
+  .main_title{
+    font-size: 64px ;
+    color: #fff;
+    
+  }
+  .para_title{
+    font-size: 15px;
+    color: #fff;
+  }
+  
+  
+               
+
+
+  
+  
