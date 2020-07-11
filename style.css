@@ -32,6 +32,11 @@
 
     /*nav*/
 
+    :root{
+      --backNav :  #262424  ;
+      --hover   : #fff;  
+    }
+
 
 
     ul{
