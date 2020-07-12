@@ -1,3 +1,6 @@
+
+*{box-sizing: border-box;}
+
 .grid-container {
   display: grid;
   grid-template-columns: 245px 1fr;
@@ -32,6 +35,8 @@
   font-family: "Montserrat", sans-serif;
   font-size: 15px;
   line-height: 1.5;
+  
+  
 }
 
 .footer {
@@ -136,10 +141,109 @@
     font-size: 15px;
     color: #fff;
   }
+
+                  /* About */
+
+.section_1{
+  background-color: #000 ;
+  font-size: 15px;
+  line-height: 1.5;
+
+ 
+  height:1000px;
   
+}
+
+.title_2{
+  margin-left:20%; 
+  color: #999999;
   
+}
+
+.para_1{
+   margin-left:20%;
+  display: block;
+  color: #757575 ;
+  text-align: justify ;  
+ 
+}
+
+.separator_1{
+width: 170px;
+height:2px ;
+display: block;
+background: #999999;
+margin: 15px ;
+color : #fff ;
+margin-left:20%; 
+}
+
+.title_3{
+  color:white ;
+  padding-top: 40px ;
+}
+
+  /* progresbar */
+.progress_bar{
+  background-color: white ;
+}
+
+.title_progress_bar{
+  padding: 12px  ;
+}
+  
+
+          /* tableau */
+
+          
+td ,th{border:2px black solid; padding: 5px; text-align:center;  }
+          
+th{ font-weight: bolder;font-size: 25px; }
+          
+table{
+  border-collapse:collapse ;
+   margin-top: 30px; 
+   background-color: #000;
+ margin-left:35%;
+ background-color:#fff ;
+ color: #000;
+font-size: 15px;
+line-height: 1.5;
+font-family: "Montserrat", sans-serif;
+opacity: 0.70;
+width: 50%;
+padding-right: 25%;
+
+       }
+          
+table:hover{
+  cursor: pointer;
+  opacity :1;
+          }
+          
+thead,tfoot{background-color: #757575; text-align:center; }
+          
+.button_tableau{background-color: #fff;}
+          
+.button_tableau:hover{background-color: #000;color: #fff;}
+  
+.title_tbl{
+  color:#555;
+  margin-left:20%;
+  padding:1px 16px;
+  
+}
+
+
+
+.title_4{
+  color:#555;
+  margin-left:20%;
+  padding:1px 16px;
+}
+
+
+
+
                
-
-
-  
-  
+            
