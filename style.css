@@ -228,7 +228,7 @@ thead,tfoot{background-color: #757575; text-align:center; }
 .button_tableau:hover{background-color: #000;color: #fff;}
   
 .title_tbl{
-  color:#555;
+  color:#fff;
   margin-left:20%;
   padding:1px 16px;
   
@@ -237,9 +237,10 @@ thead,tfoot{background-color: #757575; text-align:center; }
 
 
 .title_4{
-  color:#555;
+  color:#fff;
   margin-left:20%;
   padding:1px 16px;
+  
 }
 
 
