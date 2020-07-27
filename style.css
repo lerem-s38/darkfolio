@@ -134,7 +134,7 @@
   
   .main_title{
     font-size: 64px ;
-    color: #fff;
+    color: #f1f1f1;
     
   }
   .para_title{
@@ -148,20 +148,14 @@
   background-color: #000 ;
   font-size: 15px;
   line-height: 1.5;
-
- 
   height:1000px;
   
 }
 
-.title_2{
-  margin-left:20%; 
-  color: #999999;
-  
-}
+.title_2{color: #f1f1f1;}
 
 .para_1{
-   margin-left:20%;
+  
   display: block;
   color: #757575 ;
   text-align: justify ;  
@@ -169,13 +163,13 @@
 }
 
 .separator_1{
-width: 170px;
+width: 130px;
 height:2px ;
 display: block;
 background: #999999;
-margin: 15px ;
+margin: 5px ;
 color : #fff ;
-margin-left:20%; 
+ 
 }
 
 .title_3{
@@ -204,22 +198,22 @@ table{
   border-collapse:collapse ;
    margin-top: 30px; 
    background-color: #000;
- margin-left:35%;
  background-color:#fff ;
  color: #000;
 font-size: 15px;
 line-height: 1.5;
 font-family: "Montserrat", sans-serif;
 opacity: 0.70;
-width: 50%;
+width: 36%;
 padding-right: 25%;
+}
 
-       }
+.flex_table{
+  display: flex;
+  justify-content:space-around;
+}
           
-table:hover{
-  cursor: pointer;
-  opacity :1;
-          }
+table:hover{cursor: pointer; opacity :1; }
           
 thead,tfoot{background-color: #757575; text-align:center; }
           
@@ -229,20 +223,47 @@ thead,tfoot{background-color: #757575; text-align:center; }
   
 .title_tbl{
   color:#555;
-  margin-left:20%;
+  
   padding:1px 16px;
   
 }
 
 
-
 .title_4{
   color:#555;
-  margin-left:20%;
   padding:1px 16px;
+  padding-top: 45px;
 }
 
+.reput_img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-top: 30px;
+  
+}
 
+.text_reput{
+  margin-top: 3px;
+  color: #757575; 
+  
+}
+
+.separator_2{
+  width: 130px;
+  height:2px ;
+  display: block;
+  background:#555;
+  margin: 5px ;
+  color : #f1f1f1 ;
+   
+  }
+
+  .my_photos{
+    color: #f1f1f1;
+    margin-top: 10%;
+
+  }
 
 
                
