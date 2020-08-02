@@ -205,7 +205,7 @@ line-height: 1.5;
 font-family: "Montserrat", sans-serif;
 opacity: 0.70;
 width: 36%;
-padding-right: 25%;
+
 }
 
 .flex_table{
@@ -258,12 +258,45 @@ thead,tfoot{background-color: #757575; text-align:center; }
   color : #f1f1f1 ;
    
   }
+                      /* photosfolio */
+
+ 
 
   .my_photos{
     color: #f1f1f1;
     margin-top: 10%;
-
   }
+
+  .my_photo_folio{
+    width: 50%;
+  }
+
+  .main_my_photo{
+    display: flex; 
+    
+    padding-top: 10px; 
+    
+    
+}
+
+  .colone1_photos{
+    
+    flex-direction:column  ;
+    align-content: center;
+     
+  }
+
+  .colone2_photos{
+    
+    flex-direction:column  ;
+    align-content: center;
+    
+  }
+
+  
+  
+
+ 
 
 
                
