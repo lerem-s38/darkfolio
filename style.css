@@ -240,14 +240,18 @@ thead,tfoot{background-color: #757575; text-align:center; }
   height: 100px;
   border-radius: 50%;
   margin-top: 30px;
+  display: inline-block;
   
 }
 
 .text_reput{
   margin-top: 3px;
   color: #757575; 
+  display: inline-block;
   
 }
+
+
 
 .separator_2{
   width: 130px;
@@ -268,30 +272,23 @@ thead,tfoot{background-color: #757575; text-align:center; }
   }
 
   .my_photo_folio{
-    width: 50%;
+    width: 300px;
+    height: 300px;
+    
+  }
+  .my_photo_folio_rec{
+    width: 300px;
+    height: 650px;
+   
   }
 
   .main_my_photo{
     display: flex; 
-    
-    padding-top: 10px; 
-    
-    
+    justify-content: space-around ; 
+    padding: 30px;
+      
 }
 
-  .colone1_photos{
-    
-    flex-direction:column  ;
-    align-content: center;
-     
-  }
-
-  .colone2_photos{
-    
-    flex-direction:column  ;
-    align-content: center;
-    
-  }
 
   
   
