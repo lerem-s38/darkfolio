@@ -38,11 +38,13 @@
   
   
 }
-
 .footer {
-  grid-area: footer;
+  
   background-color:#000000;
+  font-family: "Montserrat", sans-serif;
+  
 }
+
 
     /*nav*/
 
@@ -222,7 +224,7 @@ thead,tfoot{background-color: #757575; text-align:center; }
 .button_tableau:hover{background-color: #000;color: #fff;}
   
 .title_tbl{
-  color:#555;
+  color:#757575 ;
   
   padding:1px 16px;
   
@@ -285,9 +287,72 @@ thead,tfoot{background-color: #757575; text-align:center; }
   .main_my_photo{
     display: flex; 
     justify-content: space-around ; 
-    padding: 30px;
-      
+    padding: 30px;      
 }
+
+.title_contact{
+  color: #fff;
+  font-size: 50px ;
+}
+
+.separator_3{
+  width: 230px;
+  height:2px ;
+  display: block;
+  background:#f1f1f1;
+  margin: 25px ;
+  color : #f1f1f1 ;
+   
+  }
+
+              /* formulaire*/
+form{
+  margin:  auto;
+  width: -30%;
+  padding: 2em;
+  border-radius: 1em;
+  font:inherit ;
+
+}
+
+
+
+input{
+  display: block ;
+  font-size:18px;
+  padding:10px 10px 10px 5px;
+  width:900px;
+  border:none;
+  border-bottom:1px solid #757575;
+  
+}
+ 
+label:focus{
+  color:#999; 
+  font-size:50px;
+  font-weight:normal;
+  position:absolute;
+  pointer-events:none;
+  left:5px;
+  top:10px;  
+}
+
+
+
+.bouton{
+display: flex;
+justify-content:flex-start ;
+padding-top: 20px;
+
+}
+
+textarea{
+  height: 20em ;
+}
+
+
+
+
 
 
   
