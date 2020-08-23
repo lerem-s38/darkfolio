@@ -207,6 +207,13 @@ line-height: 1.5;
 font-family: "Montserrat", sans-serif;
 opacity: 0.70;
 width: 36%;
+font-size: 15px;
+
+}
+
+.zoom_tableur{
+  font-size: 35px;
+  
 
 }
 
@@ -219,7 +226,7 @@ table:hover{cursor: pointer; opacity :1; }
           
 thead,tfoot{background-color: #757575; text-align:center; }
           
-.button_tableau{background-color: #fff;}
+.button_tableau{background-color: #fff; font-size: 15px;}
           
 .button_tableau:hover{background-color: #000;color: #fff;}
   
@@ -292,15 +299,15 @@ thead,tfoot{background-color: #757575; text-align:center; }
 
 .title_contact{
   color: #fff;
-  font-size: 50px ;
+  font-size: 30px ;
 }
 
 .separator_3{
-  width: 230px;
+  width: 145px;
   height:2px ;
   display: block;
   background:#f1f1f1;
-  margin: 25px ;
+  margin: 20px 25px  auto 0px ;
   color : #f1f1f1 ;
    
   }
